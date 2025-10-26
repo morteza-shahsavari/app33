@@ -1,5 +1,5 @@
 import { useState } from "react";
-import QuestionCard from "./assets/Component/QuestionCard";
+import QuestionCard from "./components/QuestionCard";
 
  const App=()=> {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
